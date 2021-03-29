@@ -57,3 +57,16 @@ body{
 #result {
     padding: 5rem;
 }
+
+.share-to-whatsapp {
+    font-family: Monaco;
+    color: darksalmon;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .share-to-whatsapp {
+        display: none
+    }
+}
