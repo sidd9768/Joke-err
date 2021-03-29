@@ -35,12 +35,13 @@ body{
     background:none;
     color: brown;
     background-color: bisque;
-    padding: 0.8rem;
+    padding: 1rem;
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    font-size: 1rem;
     border: none;
     border-radius: 2rem;
     transition: all 0.3s;
