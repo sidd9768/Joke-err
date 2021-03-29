@@ -4,6 +4,7 @@ var cateogory = document.querySelector("#category")
 var shareToWhatsapp = document.querySelector(".share-to-whatsapp");
 
 function jokes_click(clicked_id){
+    shareToWhatsapp.innerHTML = "Share to Whatsapp"
     cateogory.innerHTML=clicked_id;
     get_joke(clicked_id);
 }
