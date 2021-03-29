@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">Joke-ERR</h1>
+    </header>
+    <section class="container">
+            <h2 id="result" class="content">Press the below button to get the joke...</h2>
+        <h3 id="content-category">Category: <span id="category"></span></h3>
+    </section>
+    <div class="container">
+        <button class="category-button" id="programming" onclick="jokes_click(this.id)">Programming</button>
+        <button class="category-button" id="misc" onclick="jokes_click(this.id)">Misc</button>
+        <button class="category-button" id="pun" onclick="jokes_click(this.id)">Pun</button>
+        <button class="category-button" id="any" onclick="jokes_click(this.id)">Any</button>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

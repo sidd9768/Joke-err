@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#heading {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 0;
+    font-family:monospace;
+    color: brown;
+    font-size: 5rem;
+    background-color:bisque;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.content{
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    font-family:monospace;
+}
+
+#content-category {
+    color:darksalmon;
+    font-family: sans-serif;
+}
+
+.category-button{
+    background:none;
+    color: brown;
+    background-color: bisque;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    transition: all 0.3s;
+}
+
+.category-button:hover{
+    transform:translateY(-0.2rem);
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+}
+
+#result {
+    padding: 5rem;
+}
